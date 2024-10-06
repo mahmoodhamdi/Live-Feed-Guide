@@ -53,8 +53,8 @@ A comprehensive Flutter example demonstrating how to implement and use the camer
    ```xml
    <manifest xmlnsandroid="http//schemas.android.com/apk/res/android"
        package="com.example.myapp">
-       <uses-permission androidname="android.permission.CAMERA"/>
-       <uses-permission androidname="android.permission.RECORD_AUDIO"/>
+       <uses-permission android:name="android.permission.CAMERA"/>
+       <uses-permission android:name="android.permission.RECORD_AUDIO"/>
        ...
    </manifest>
    ```
